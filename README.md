@@ -1,2 +1,2 @@
-# how-to-learn
-This is my homework for Sprint 1
+# Yandex Practicum
+Sprint 1: homework
