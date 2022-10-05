@@ -84,12 +84,12 @@
 }
 
 .two-columns__brief {
-  margin: 0.3em 1em 0 0;
   font-weight: 400;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   display: flex;
+  margin-top: 0;
   width: 175px;
 }
 
