@@ -3,6 +3,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .header {
@@ -21,7 +22,7 @@
   height: 32px;
 }
 
-.logo_place_header {
+.header__logo {
   margin-left: 64px;
   margin-top: 30px;
   z-index: 2;
@@ -116,7 +117,8 @@
 
 .section-title {
   text-align: center;
-  margin: 20px auto;
+  margin: auto;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-weight: 600;
   font-size: 60px;
@@ -136,9 +138,9 @@
   justify-content: space-between;
   font-size: 24px;
   flex-wrap: wrap;
+  margin: 0 auto;
   display: flex;
   width: 1100px;
-  margin: auto;
 }
 
 .table__cell {
@@ -205,4 +207,111 @@
   width: 867px;
   bottom: 0;
   left: 0;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-title_theme_dark {
+  color: #ffffff;
+}
+
+.section-subtitle_theme_dark {
+  color: #ffffff;
+}
+
+.table__cell_theme_dark {
+  color: #ffffff;
+  width: 200px;
+  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+  right: -210px;
+  height: 877px;
+  width: 877px;
+  z-index: -1;
+  top: 0;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
+  min-height: 350px;
+  color: #ffffff;
+  display: flex;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  margin-top: 20px;
+}
+
+.footer_author {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.footer__column-links {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social_image {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
+
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+  left: 64px;
+  top: 30px;
 }
