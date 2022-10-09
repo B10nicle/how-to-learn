@@ -1,2 +1,2 @@
 # Yandex Practicum: Web
-Sprint 1: homework
+Sprint 1: Homework
