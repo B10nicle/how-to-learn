@@ -7,9 +7,7 @@
 }
 
 .header {
-  justify-content: space-between;
   background-color: #f2f2f2;
-  flex-direction: column;
   position: relative;
   min-height: 600px;
   max-height: 756px;
@@ -23,14 +21,17 @@
 }
 
 .logo_place_header {
-  margin-left: 64px;
-  margin-top: 30px;
+  position: absolute;
   z-index: 2;
+  left: 64px;
+  top: 30px;
 }
 
 .header__title {
-  margin-left: 64px;
+  margin: 0;
+  align-self: center;
   line-height: 96px;
+  margin-left: 64px;
   font-weight: 600;
   font-size: 102px;
   width: 730px;
@@ -38,14 +39,15 @@
 }
 
 .header__subtitle {
-  margin-bottom: 30px;
-  margin-left: 64px;
+  position: absolute;
   line-height: 25px;
   font-weight: 400;
   font-size: 18px;
   width: 388px;
+  bottom: 30px;
+  left: 64px;
   z-index: 2;
-  bottom: 0;
+  margin: 0;
 }
 
 .header__link {
@@ -66,11 +68,10 @@
 .header__square-pic {
   background-color: #2f80ed;
   position: absolute;
-  margin-top: 64px;
   height: 568px;
   width: 568px;
+  top: 64px;
   right: 0;
-  top: 0;
 }
 
 .description {
@@ -79,7 +80,6 @@
 
 .two-columns {
   justify-content: space-between;
-  min-width: 784px;
   margin: 0 auto;
   display: flex;
   width: 80%;
@@ -91,11 +91,12 @@
   line-height: 1.2;
   font-size: 18px;
   display: flex;
-  margin-top: 0;
+  margin: 0;
   width: 175px;
 }
 
 .two-columns__main-text {
+  min-width: 784px;
   font-size: 24px;
   width: 80%;
 }
@@ -104,7 +105,14 @@
   margin-bottom: 30px;
   line-height: 34px;
   font-weight: 400;
+}
+
+.two-columns__paragraph:first-child {
   margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -116,6 +124,7 @@
 }
 
 .section-title {
+  margin: 0;
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
@@ -166,7 +175,7 @@
   background-color: #f2f2f2;
   flex-direction: column;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   display: flex;
 }
 
@@ -264,9 +273,9 @@
 }
 
 .footer__column-heading {
+  line-height: 30px;
   font-weight: 600;
   font-size: 18px;
-  height: 30px;
   margin: 0;
 }
 
@@ -283,8 +292,9 @@
   padding: 0;
 }
 
-.footer_author {
+.footer__author {
   font-weight: normal;
+  line-height: 25px;
   font-size: 18px;
   margin: 18px 0;
 }
@@ -293,10 +303,10 @@
   text-decoration: none;
   align-items: center;
   font-weight: normal;
+  line-height: 30px;
   color: #ffffff;
   font-size: 18px;
   display: flex;
-  height: 30px;
 }
 
 .footer__social_icon {
