@@ -102,6 +102,7 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   margin-bottom: 30px;
   line-height: 34px;
   font-weight: 400;
@@ -308,7 +309,7 @@
   display: flex;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
