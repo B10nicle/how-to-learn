@@ -207,51 +207,31 @@
   margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.digits {
-  margin: 100px 0;
+.video {
+  margin-top: 100px;
 }
 
-.table {
-  justify-content: space-between;
-  font-size: 24px;
-  flex-wrap: wrap;
-  margin: 0 auto;
+.video__iframes {
+  justify-content: center;
+  position: relative;
   display: flex;
-  width: 1100px;
+  z-index: 1;
+  top: 50px;
 }
 
-.table__cell {
-  margin-top: 60px;
-  width: 250px;
+.video__iframe {
+  margin-right: 20px;
+  height: 316px;
+  width: 515px;
 }
 
-.table__heading {
-  line-height: 1.15;
-  font-weight: 600;
-  font-size: 24px;
-  margin: 0;
+.video__iframe:last-of-type {
+  margin-right: 0;
 }
 
-.table__text {
-  margin: 20px 0 0 0;
-  font-weight: 400;
-  line-height: 1.2;
-  font-size: 18px;
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 160px;
 }
 
 .feynman {
@@ -305,18 +285,55 @@
   left: 0;
 }
 
-.kaufman {
-  background-color: #1f1f1f;
-  position: relative;
-  overflow: hidden;
-  padding: 90px 0;
-  z-index: 1;
+.digits {
+  margin: 100px 0;
+}
+
+.table {
+  justify-content: space-between;
+  font-size: 24px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  width: 1100px;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
 }
 
 .table__cell_theme_dark {
   color: #ffffff;
   margin-top: 80px;
   width: 200px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+//добавить Хана
+
+
+
+
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  padding: 90px 0;
+  z-index: 1;
 }
 
 .kaufman__triangle {
