@@ -1,4 +1,4 @@
-# Yandex Practicum: проект "Научиться учиться"
+#Яндекс Практикум: проект "Научиться учиться"
 
 Сайт: https://b10nicle.github.io/how-to-learn/
 
