@@ -1,6 +1,5 @@
-/* stylelint-disable function-url-quotes */
 .kaufman__triangle {
-  background-image: url(./images/kaufman-triangle.svg);
+  background-image: url("../../../images/kaufman-triangle.svg");
   animation: rotation linear 20s infinite;
   background-repeat: no-repeat;
   background-position: center;
