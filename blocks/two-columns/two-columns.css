@@ -1,41 +1,7 @@
 .two-columns {
-  justify-content: space-between;
+  width: 80%;
+  display: flex;
   margin: 0 auto;
-  display: flex;
-  width: 80%;
-}
-
-.two-columns__brief {
-  font-weight: 400;
-  color: #2f80ed;
-  line-height: 1.2;
-  font-size: 18px;
-  display: flex;
-  margin: 0;
-  width: 175px;
-}
-
-.two-columns__main-text {
-  min-width: 784px;
-  font-size: 24px;
-  width: 80%;
-}
-
-.two-columns__paragraph {
-  margin: 0;
-  margin-bottom: 30px;
-  line-height: 34px;
-  font-weight: 400;
-}
-
-.two-columns__paragraph:first-child {
-  margin-top: 0;
-}
-
-.two-columns__paragraph:last-child {
-  margin-bottom: 0;
-}
-
-.two-columns__span-accent {
-  font-weight: 600;
+  margin-top: 100px;
+  justify-content: space-between;
 }
