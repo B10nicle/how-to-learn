@@ -1,6 +1,6 @@
 # Yandex Practicum: проект "Научиться учиться"
 
-Website: https://b10nicle.github.io/how-to-learn/
+Сайт: https://b10nicle.github.io/how-to-learn/
 
 Технологии: HTML + CSS + BEM
 
