@@ -5,6 +5,6 @@
   margin-left: 64px;
   font-weight: 600;
   font-size: 102px;
-  width: 730px;
+  max-width: 730px;
   z-index: 2;
 }
