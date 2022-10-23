@@ -2,6 +2,9 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/page/page.css");
 
+/* link */
+@import url("../blocks/link/link.css");
+
 /* logo */
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_place/logo_place_header.css");
@@ -89,6 +92,7 @@
 /* footer */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__author/footer__author.css");
+@import url("../blocks/footer/__column/footer__column.css");
 @import url("../blocks/footer/__columns/footer__columns.css");
 @import url("../blocks/footer/__social-icon/footer__social-icon.css");
 @import url("../blocks/footer/__column-link/footer__column-link.css");
